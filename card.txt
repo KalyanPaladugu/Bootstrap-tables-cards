@@ -9,9 +9,10 @@ which are usefull define header,body and footer content.
 .card-footer
 
 
-Images,Title,Text and Links 
+Images,Title,Text and Links 	
 
 .card-img-top  class used to upload profilepic or images 
 .card-title to define title of card (can inlcude any header tags <h*>)
 .card-subtitle to define subtitle of card (can inlcude any header tags <h*>)
-.card-text To define  
+.card-text To write text
+

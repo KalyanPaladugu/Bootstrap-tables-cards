@@ -308,3 +308,37 @@ Breakpoint specific:
 Use .table-responsive{-sm|-md|-lg|-xl} as needed to create responsive tables up to a particular breakpoint. 
 From that breakpoint and up, the table will behave normally and not scroll horizontally.
 These tables may appear broken until their responsive styles apply at specific viewport widths.
+
+
+
+Bootstrap Cards:
+================
+
+Bootstrap card is a bordered box container, contains with flexible and extensible content.
+we can include styles also for interactive response based on our requirement.
+A Card can br created with .card class and mainly it contains 3 subclasses which are
+inherit from .card which are usefull define header,body and footer content.
+
+- .card-header
+- .card-body
+- .card-footer
+
+Card view:
+----------
+```
+<div class="card">
+    	<center><h1>Card Header,Body and Footer</h1></center>
+   <div class="card-header">
+   	<p>Card Header</p>
+   </div>
+   <div class="card-body">
+   	<P>Main Content of Card</P>
+   </div>
+   <div class="card-footer">
+   	<P>Card Footer</P>
+   </div>
+   ```
+   
+Output:
+
+![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/card1.PNG "Card view")

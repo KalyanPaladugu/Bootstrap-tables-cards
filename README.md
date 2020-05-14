@@ -297,3 +297,14 @@ To get responsiveness we have to include ```<meta>``` tag with viewport in ```<h
     </table>
   </div>
   ```
+
+Output:
+
+![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/res.PNG "responsive image")
+
+
+Breakpoint specific:
+--------------------
+Use .table-responsive{-sm|-md|-lg|-xl} as needed to create responsive tables up to a particular breakpoint. 
+From that breakpoint and up, the table will behave normally and not scroll horizontally.
+These tables may appear broken until their responsive styles apply at specific viewport widths.

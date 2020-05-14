@@ -214,3 +214,43 @@ Add .table-bordered for borders on all sides of the table and cells.
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img4.PNG "Output for bordered class")
 
 
+Hoverable rows
+Add .table-hover to enable a hover state on table rows within a <tbody>.
+
+```
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">First_Name</th>
+      <th scope="col">Last_Name</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Warren </td>
+      <td>Buffett</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jeff </td>
+      <td>Bezos</td>
+      <td>56</td>
+    </tr>
+   <tr>
+      <th scope="row">3</th>
+      <td>Mark </td>
+      <td>Zuckerberg</td>
+      <td>35</td>
+   </tr>
+ </tbody>
+</table>
+```
+
+ Output:
+ 
+ 
+![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/hover.PNG "Output for hover class")

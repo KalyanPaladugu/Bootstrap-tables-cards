@@ -173,7 +173,8 @@ Use .table-striped to add zebra-striping to any table row within the <tbody>.
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/strip.PNG "Output for striped rows")
 
 
-Bordered table
+Bordered table:
+---------------
 Add .table-bordered for borders on all sides of the table and cells.
 
 ```
@@ -213,7 +214,8 @@ Add .table-bordered for borders on all sides of the table and cells.
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img4.PNG "Output for bordered class")
 
 
-Hoverable rows
+Hoverable rows:
+---------------
 Add .table-hover to enable a hover state on table rows within a <tbody>.
 ```
   <table class="table table-hover">
@@ -261,10 +263,38 @@ Make any table responsive across all viewports by wrapping a .table with .table-
 Or, pick a maximum breakpoint with which to have a responsive table up to by using .table-responsive{-sm|-md|-lg|-xl}.
 
 To get resposive for a webpage we have to include meta tag in ```<head></head>``` as shown below:
-
+``` <meta name="viewport" content="width=device-width, initial-scale=1">```
  
 Code for responsive table:   
 -------------------------
+Include below code in ``` <div class="table-responsive"></div>```
+```
+ <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+          <th>City</th>
+          <th>Country</th>
+          <th>Sex</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sam</td>
+          <td>Beauty</td>
+          <td>32</td>
+          <td>Hyderabad</td>
+          <td>India</td>
+          <td>Female</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    ```
  ```
  <div class="table-responsive">
     <table class="table table-bordered">
@@ -294,9 +324,7 @@ Code for responsive table:
   </div>
 ```
 
- output:
- ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/responsive.PNG "responsive")
- 
+
  
 Breakpoint specific
 Use .table-responsive{-sm|-md|-lg|-xl} as needed to create responsive tables up to a particular breakpoint.

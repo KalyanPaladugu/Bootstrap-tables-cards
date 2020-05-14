@@ -217,9 +217,7 @@ Add .table-bordered for borders on all sides of the table and cells.
 Hoverable rows:
 ---------------
 Add .table-hover to enable a hover state on table rows within a tbody
-
-```
-  <table class="table table-hover">
+```<table class="table table-hover">
         <thead>
           <tr>
             <th scope="col">S.No</th>

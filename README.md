@@ -352,4 +352,17 @@ Images,Title,Text and Links:
  - .card-subtitle to define subtitle of card (can inlcude any header tags <h*>)
  - .card-text To write text
 
+```
+<div class="card" style="width: 18rem;">
+ 	 <img src="images/logo.png" class="card-img-top" alt="Profile_pic">
+  	 <div class="card-body">
+    	<h5 class="card-title">Profile Card of Jack Sparrow</h5>
+    	<p class="card-text">Jack Sparrow</p>
+    	<a href="https://github.com/KalyanPaladugu" class="btn btn-primary">Click to see profile</>
+  	 </div>
+ </div>
+  ```
+    
+Output:
 
+![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/profile1.PNG "Card view")

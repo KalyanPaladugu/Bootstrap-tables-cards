@@ -216,7 +216,8 @@ Add .table-bordered for borders on all sides of the table and cells.
 
 Hoverable rows:
 ---------------
-Add .table-hover to enable a hover state on table rows within a <tbody>.
+Add .table-hover to enable a hover state on table rows within a tbody
+
 ```
   <table class="table table-hover">
         <thead>
@@ -240,15 +241,13 @@ Add .table-hover to enable a hover state on table rows within a <tbody>.
             <td>Bezos</td>
             <td>56</td>
           </tr>
-        </tbody>
-        <tfoot>
-         <tr>
+          <tr>
           <th scope="row">3</th>
           <td>Mark </td>
           <td>Zuckerberg</td>
           <td>35</td>
         </tr>
-         </tfoot> 
+       </tbody>
     </table> 
     ```
  output:
@@ -260,7 +259,8 @@ Responsive tables:
 ------------------
 Responsive tables allow tables to be scrolled horizontally with ease.
 Make any table responsive across all viewports by wrapping a .table with .table-responsive.
-Or, pick a maximum breakpoint with which to have a responsive table up to by using .table-responsive{-sm|-md|-lg|-xl}.
+Or, pick a maximum breakpoint with which to have a responsive table up to by
+using .table-responsive{-sm|-md|-lg|-xl}.
 
 To get resposive for a webpage we have to include meta tag in ```<head></head>``` as shown below:
 ``` <meta name="viewport" content="width=device-width, initial-scale=1">```

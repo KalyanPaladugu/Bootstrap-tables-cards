@@ -21,6 +21,8 @@ This is intended as a quick reference and showcase for Bootstrap4 Tables and Car
 
 As we know bootstrap is a framework. It consists number of default classes to build intereact responsive webapplication.To Generate table format in bootstrap we have to use .table class.
 
+> Note:  The html code in this document is better to include in .container class ```[<div class="container"> html code ...</div>]``` to get output as shown in  below
+
 ```html
 <table class="table">
   <thead>

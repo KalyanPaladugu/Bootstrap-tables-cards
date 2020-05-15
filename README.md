@@ -1,7 +1,7 @@
 # Bootstrap-tables-cards
 
 
-This is intended as a quick reference and showcase for Bootstrap4 Tables and Cards
+This is intended as a quick reference and showcase for Bootstrap4 Tables and Cards.
 
 
 ## Table of Contents
@@ -19,8 +19,7 @@ This is intended as a quick reference and showcase for Bootstrap4 Tables and Car
 
 ### Table
 
-As we know bootstrap is a framework.it consists number of default classes to get intereact response in the webpage.In this scenario to get table format in webpage we have to use .table class as parent class based upon our requirement we will use sub classes.
-
+As we know bootstrap is a framework. It consists number of default classes to build intereact responsive webapplication.To Generate table format in bootstrap we have to use .table class.
 
 ```html
 <table class="table">
@@ -51,7 +50,7 @@ As we know bootstrap is a framework.it consists number of default classes to get
 ```
 Output:
 
-![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img1.PNG "Output 1")
+![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img1.PNG "output for table")
 
 
 - If we see table structure it can be divided in to 3 tags :
@@ -62,10 +61,10 @@ Output:
 
 - Sub tags of table tag :
   - ```<tr></tr>``` for display data in row
-  - ```<th></th>```  Defines a header cell whether it is a row|column|group of rows|group of columns
+  - ```<th></th>```  defines a header cell whether it is a row|column|group of rows|group of columns
   - ```<td></td>```  for display data in cell of a table
   
-Lets see some attributes for th tag: scope, colspan and rowspan
+Lets see some attributes for ```<th>``` tag: scope, colspan and rowspan
 
 ```<th scope="col|row|colgroup|rowgroup" colspan="2" rowspan="3">```
 
@@ -110,7 +109,8 @@ Scope:The scope attribute has no visual effect in ordinary web browsers,
       </tbody>
     </table> 
     ```
-    Output:
+
+Output:
 
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img2.PNG "Output for <th> attributes")
 
@@ -128,13 +128,16 @@ The classes that can be used are:
 - .table-secondary, 
 - .table-light and .table-dark
 
- Output:
+Output:
+
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/table.PNG "Output for contextual classes")
 
 
 
-Striped rows
-Use .table-striped to add zebra-striping to any table row within the <tbody>.
+Striped rows:
+-------------
+Use .table-striped to add zebra-striping to any table row within the ```<tbody>```.
+
  ```
  <table class="table table-striped">
   <thead>
@@ -168,7 +171,7 @@ Use .table-striped to add zebra-striping to any table row within the <tbody>.
 </table>
 ```
 
-   Output:
+Output:
 
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/strip.PNG "Output for striped rows")
 
@@ -178,7 +181,6 @@ Bordered table:
 Add .table-bordered for borders on all sides of the table and cells.
 
 ```
-
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -210,7 +212,8 @@ Add .table-bordered for borders on all sides of the table and cells.
  </tbody>
 </table>
 ```
- Output:
+Output:
+
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img4.PNG "Output for bordered class")
 
 
@@ -251,8 +254,7 @@ Add .table-hover to enable a hover state on table rows within a <tbody>.
 </table>
 ```
 
- Output:
- 
+Output:
  
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/hover.PNG "Output for hover class")
 
@@ -267,7 +269,7 @@ To get responsiveness we have to include ```<meta>``` tag with viewport in ```<h
  
  ```<meta name="viewport" content="width=device-width, initial-scale=1">```
  
- Code:
+Code for responsive table:-
  
  ```
  <div class="table-responsive">
@@ -337,7 +339,7 @@ Card view:
    <div class="card-footer">
    	<P>Card Footer</P>
    </div>
-   ```
+```
    
 Output:
 

@@ -55,7 +55,7 @@ Output:
 ![alt text](https://github.com/KalyanPaladugu/Bootstrap-tables-cards/blob/master/images/img1.PNG "output for table")
 
 
-- If we see table structure it can be divided in to 3 tags :
+- If we see table structure it can be divided in to 3 sections :
 
   -  ```<thead></thead>``` - heading content can be include in this tag
   -  ```<tbody> </tbody>``` - main content respective heading can be includ in this tag
